@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mediplus
-          image: dockernavaneeth/mediplus:1
+          image: sidharth18/mediplus:v1
           ports:
             - containerPort: 8000
           env:

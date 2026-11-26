@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'dockernavaneeth/mediplus'
+        DOCKER_IMAGE = 'sidharth18/mediplus:v1'
     }
 
     stages {
@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-credentials',
-                    url: 'https://github.com/Navaneethkrishna-coder/mediplus.git'
+                    url: 'https://github.com/Sidharth-420/Mediplus.git'
             }
         }
 
